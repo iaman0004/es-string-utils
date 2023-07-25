@@ -1,0 +1,14 @@
+{
+  "name": "es-string",
+  "version": "0.0.1",
+  "description": "A untility to manipulate string in javascript and typescript",
+  "main": "index.ts",
+  "author": "Aman Kumar Sharma",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.4.4"
+  },
+  "dependencies": {
+    "typescript": "^5.1.6"
+  }
+}

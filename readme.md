@@ -1,0 +1,3 @@
+- camelize
+- capitalize
+- sanitize
