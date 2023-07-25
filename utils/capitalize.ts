@@ -1,6 +1,7 @@
 /**
  * 
  * @param source 
+ * @param delimiter 
  * @returns 
  */
 export const capitalize = (source: string, delimiter: string = ' ') => {
