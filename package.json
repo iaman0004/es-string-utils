@@ -2,13 +2,29 @@
   "name": "es-string",
   "version": "0.0.1",
   "description": "A untility to manipulate string in javascript and typescript",
-  "main": "index.ts",
+  "main": "./dist/esm/index.js",
+  "module": "./dist/esm/index.js",
   "author": "Aman Kumar Sharma",
   "license": "MIT",
-  "devDependencies": {
-    "@types/node": "^20.4.4"
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup index.ts --watch"
   },
-  "dependencies": {
+  "devDependencies": {
+    "@types/node": "^20.4.4",
+    "tsup": "^7.1.0",
     "typescript": "^5.1.6"
+  },
+  "keywords": ["string", "utils", "string-utils", "string-utility", "js-utility", "javascript", "javascript utility"],
+  "dependencies": {},
+  "exports": {
+    "default": "./dist/index.js",
+    "import": "./dist/esm/index.js",
+    "require": "./dist/index.js",
+    "node": "./dist/index.js"
+  },
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
   }
 }
