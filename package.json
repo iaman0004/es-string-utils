@@ -1,13 +1,20 @@
 {
-  "name": "es-string",
-  "version": "0.0.1",
+  "name": "es-string-utils",
+  "version": "0.0.3",
   "description": "A collection of utility functions to manipulate string in javascript and typescript",
   "main": "./dist/esm/index.js",
   "module": "./dist/esm/index.js",
   "author": "Aman Kumar Sharma",
   "license": "MIT",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "url": "https://github.com/iaman0004/es-string"
+  },
+  "files": [
+    "dist", "package.json", "README.md"
+  ],
   "scripts": {
-    "build": "tsup",
+    "build": "rm -rf /dist && tsup",
     "dev": "tsup index.ts --watch"
   },
   "devDependencies": {
@@ -16,7 +23,6 @@
     "typescript": "^5.1.6"
   },
   "keywords": ["string", "utils", "string-utils", "string-utility", "js-utility", "javascript", "javascript utility"],
-  "dependencies": {},
   "exports": {
     "default": "./dist/index.js",
     "import": "./dist/esm/index.js",
@@ -25,7 +31,6 @@
   },
   "type": "module",
   "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com/iaman0004"
+    "access": "public"
   }
 }
