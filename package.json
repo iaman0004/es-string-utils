@@ -1,7 +1,7 @@
 {
   "name": "es-string",
   "version": "0.0.1",
-  "description": "A untility to manipulate string in javascript and typescript",
+  "description": "A collection of utility functions to manipulate string in javascript and typescript",
   "main": "./dist/esm/index.js",
   "module": "./dist/esm/index.js",
   "author": "Aman Kumar Sharma",
@@ -25,6 +25,7 @@
   },
   "type": "module",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/iaman0004"
   }
 }
