@@ -1,6 +1,6 @@
 {
   "name": "es-string-utils",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A collection of utility functions to manipulate string in javascript and typescript",
   "main": "./dist/esm/index.js",
   "module": "./dist/esm/index.js",
