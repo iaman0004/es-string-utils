@@ -5,7 +5,6 @@ const config: Options = {
   dts: true,
   format: ['cjs', 'esm'],
   minify: true,
-  legacyOutput: true,
   treeshake: true
 }
 

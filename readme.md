@@ -15,11 +15,11 @@ yarn add es-string-utils
 
 **Usage with es6 import**
 ```ts
-import { containsAnyIgnoreCase, camelize } from 'es-string-utils';
+import { containsAnyIgnoreCase, capitalize } from 'es-string-utils';
 
 const contains = containsAnyIgnoreCase('This is the source string', 'tocheck'); //false
 
-const camelizedText = camelize('camelize This strinG'); //Camelize This String
+const capitalizedText = capitalize('capitalize This strinG'); //Capitalize This String
 ```
 
 **Usage with plain old javascript**
@@ -28,7 +28,7 @@ const stringUtils = require('es-string-utils');
 
 const contains = stringUtils.containsAnyIgnoreCase('This is the source string', 'tocheck'); //false
 
-const camelizedText = stringUtils.camelize('camelize This strinG'); //Camelize This String
+const capitalizedText = stringUtils.capitalize('capitalize This strinG'); //Capitalize This String
 ```
 
 ### Author
