@@ -7,3 +7,5 @@ export * from './containsIgnoreCase';
 export * from './containsAny';
 export * from './containsAnyIgnoreCase';
 export * from './containsNone';
+export * from './containsOnly';
+export * from './countMatches';

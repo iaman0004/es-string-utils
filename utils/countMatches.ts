@@ -9,9 +9,8 @@ export const countMatches = (source: string, target: string): number => {
   if (!source || typeof source !== 'string' || !source || typeof source !== 'string' || target.length > source.length) return 0;
 
   let count = 0;
-  for (let i = 0; i<source.length - target.length; i++) {
+  for (let i = 0; i<source.length - target.length + 1; i++) {
     const substr = source.slice(i, i + target.length);
-    console.log(substr);
     if (substr === target) count++;
   }
   return count;
