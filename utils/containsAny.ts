@@ -1,14 +1,16 @@
 import { contains } from "./contains";
-import { sanityCheck } from "./sanity-check"
 
 /**
+ * Validate and returns if from array of charcters or substrings any one is present in the
+ * source string
  * 
- * @param source 
- * @param targets 
- * @returns 
+ * @param {string} source string which has to be validated 
+ * @param {Array<string>} targets array of characters/substrings against which source has to validated 
+ * @returns {boolean} if source string contains any one of the characters/substrings
  */
 export const containsAny = (source: string, ...targets: string[]): boolean => {
-  sanityCheck(source);
+  if (typeof source !== 'string' || !source?.length) return false;
+  if (!targets?.length) return false;
 
   let flag: boolean = false;
   for (const target of targets) {
