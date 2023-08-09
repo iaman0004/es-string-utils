@@ -11,18 +11,31 @@
     "url": "https://github.com/iaman0004/es-string-utils"
   },
   "files": [
-    "dist", "package.json", "README.md"
+    "dist",
+    "package.json",
+    "README.md"
   ],
   "scripts": {
     "build": "rm -rf dist && tsup",
-    "dev": "tsup index.ts --watch"
+    "dev": "tsup index.ts --watch",
+    "test": "rm -rf tests && tsc && jasmine"
   },
   "devDependencies": {
+    "@types/jasmine": "^4.3.5",
     "@types/node": "^20.4.4",
+    "jasmine": "^5.1.0",
     "tsup": "^7.1.0",
     "typescript": "^5.1.6"
   },
-  "keywords": ["string", "utils", "string-utils", "string-utility", "js-utility", "javascript", "javascript utility"],
+  "keywords": [
+    "string",
+    "utils",
+    "string-utils",
+    "string-utility",
+    "js-utility",
+    "javascript",
+    "javascript utility"
+  ],
   "exports": {
     "default": "./dist/index.js",
     "import": "./dist/index.mjs",
