@@ -9,3 +9,6 @@ export * from './containsAnyIgnoreCase';
 export * from './containsNone';
 export * from './containsOnly';
 export * from './countMatches';
+export * from './deleteChars';
+export * from './endsWithAny';
+export * from './endsWithIgnoreCase';
