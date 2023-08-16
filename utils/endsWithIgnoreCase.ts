@@ -1,4 +1,11 @@
-export const endsWithAnyIgnoreCase = (source: string, targets: string[]) => {
+/**
+ * Determines weather a string ends with certain set of characters or string ignoring the case of string
+ * 
+ * @param {string} source which has to be validated against validators 
+ * @param {string[]} targets these are validators
+ * @returns {boolean} if the source string ends with one of the targets ignoring it's case
+ */
+export const endsWithAnyIgnoreCase = (source: string, targets: string[]): boolean => {
   if (!source || typeof source !== 'string') return false;
   source = source.toLocaleLowerCase();
   const memo: Map<number, string> = new Map();
