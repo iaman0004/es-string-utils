@@ -1,8 +1,9 @@
 /**
+ * Determines if a string contains certain set of chars / substrings
  * 
- * @param source 
- * @param targets 
- * @returns 
+ * @param {string} source which has to be validated against validators
+ * @param {string[]} targets array of validators to be validated
+ * @returns {boolean} given source string ends with one of the targets
  */
 export const endsWithAny = (source: string, targets: Array<string>): boolean => {
   if (!source || typeof source !== 'string') return false;

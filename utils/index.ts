@@ -1,5 +1,6 @@
 export * from './camelize';
 export * from './capitalize';
+export * from './chop';
 export * from './compare';
 export * from './concat';
 export * from './contains';

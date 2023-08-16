@@ -1,3 +1,4 @@
+// TODO: remove dependency from this func
 export const sanityCheck = (...sources : any[]) => {
   for (const source of sources) {
     if (typeof source !== 'string') {

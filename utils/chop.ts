@@ -8,5 +8,5 @@ import { sanityCheck } from "./sanity-check"
 export const chop = (source: string) => {
   sanityCheck(source);
   
-  return source.replace(/(\r\n|\n|\r|\t)*/gm, (c: string) => '');
+  return source.replace(/(\r\n|\n|\r|\t)*/gm, (_: string) => '');
 }
