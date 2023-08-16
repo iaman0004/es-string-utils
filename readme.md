@@ -31,6 +31,25 @@ const contains = stringUtils.containsAnyIgnoreCase('This is the source string', 
 const capitalizedText = stringUtils.capitalize('capitalize This strinG'); //Capitalize This String
 ```
 
+### Available Methods
+* [camelize](utils/camelize.ts)
+* [capitalize](utils/capitalize.ts)
+* [chop](utils/chop.ts)
+* [compare](utils/compare.ts)
+* [concat](utils/concat.ts)
+* [contains](utils/contains.ts)
+* [containsIgnoreCase](utils/containsAnyIgnoreCase.ts)
+* [containsAny](utils/containsAny.ts)
+* [containsAnyIgnoreCase](utils/containsAnyIgnoreCase.ts)
+* [containsNone](utils/containsNone.ts)
+* [containsOnly](utils/containsOnly.ts)
+* [countMatches](utils/countMatches.ts)
+* [deleteChars](utils/deleteChars.ts)
+* [endsWithAny](utils/endsWithAny.ts)
+* [endsWithIgnoreCase](utils/endsWithIgnoreCase.ts)
+
+**many more on the way**
+
 ### Author
 - [Aman Sharma](https://github.com/iaman0004)
 
