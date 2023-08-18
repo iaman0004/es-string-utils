@@ -5,7 +5,7 @@
   "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",
   "author": "Aman Kumar Sharma",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "types": "./dist/index.d.ts",
   "repository": {
     "url": "https://github.com/iaman0004/es-string-utils"

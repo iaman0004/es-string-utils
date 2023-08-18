@@ -13,3 +13,5 @@ export * from './countMatches';
 export * from './deleteChars';
 export * from './endsWithAny';
 export * from './endsWithIgnoreCase';
+export * from './equals';
+export * from './equalsIgnoreCase';
