@@ -1,7 +1,7 @@
 ### ES String Utils 
 [![NPM][npm-shield]][npm-url]
 
-A collection of utility functions for string manipulation in javascript and typescript.
+A collection of utility functions which Javascript/Typescript misses for string manipulation in javascript and typescript.
 
 **Installation using `npm`**
 ```sh
@@ -47,6 +47,8 @@ const capitalizedText = stringUtils.capitalize('capitalize This strinG'); //Capi
 * [deleteChars](utils/deleteChars.ts)
 * [endsWithAny](utils/endsWithAny.ts)
 * [endsWithIgnoreCase](utils/endsWithIgnoreCase.ts)
+* [equals](utils/equals.ts)
+* [equalsIgnoreCase](utils/equalsIgnoreCase.ts)
 
 **many more on the way**
 
