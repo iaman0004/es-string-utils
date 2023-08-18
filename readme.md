@@ -34,7 +34,6 @@ const capitalizedText = stringUtils.capitalize('capitalize This strinG'); //Capi
 ### Available Methods
 * [camelize](utils/camelize.ts)
 * [capitalize](utils/capitalize.ts)
-* [chop](utils/chop.ts)
 * [compare](utils/compare.ts)
 * [concat](utils/concat.ts)
 * [contains](utils/contains.ts)
