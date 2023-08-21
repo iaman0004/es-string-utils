@@ -45,8 +45,9 @@ const capitalizedText = stringUtils.capitalize('capitalize This strinG'); //Capi
 * [countMatches](utils/countMatches.ts)
 * [deleteChars](utils/deleteChars.ts)
 * [endsWithAny](utils/endsWithAny.ts)
-* [endsWithIgnoreCase](utils/endsWithIgnoreCase.ts)
+* [endsWithIgnoreCase](utils/endsWithAnyIgnoreCase.ts)
 * [equals](utils/equals.ts)
+* [equalsAny](utils/equalsAny.ts)
 * [equalsIgnoreCase](utils/equalsIgnoreCase.ts)
 
 **many more on the way**
