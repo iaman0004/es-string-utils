@@ -11,6 +11,7 @@ export * from './containsOnly';
 export * from './countMatches';
 export * from './deleteChars';
 export * from './endsWithAny';
-export * from './endsWithIgnoreCase';
+export * from './endsWithAnyIgnoreCase';
 export * from './equals';
+export * from './equalsAny';
 export * from './equalsIgnoreCase';
