@@ -14,4 +14,5 @@ export * from './endsWithAny';
 export * from './endsWithAnyIgnoreCase';
 export * from './equals';
 export * from './equalsAny';
+export * from './equalsAnyIgnoreCase'
 export * from './equalsIgnoreCase';

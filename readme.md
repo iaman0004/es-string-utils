@@ -16,10 +16,13 @@ yarn add es-string-utils
 **Usage with es6 import**
 ```ts
 import { containsAnyIgnoreCase, capitalize } from 'es-string-utils';
+import * as esStringUtils from 'es-string-utils';
 
 const contains = containsAnyIgnoreCase('This is the source string', 'tocheck'); //false
 
 const capitalizedText = capitalize('capitalize This strinG'); //Capitalize This String
+
+const concatenated = esStringUtils.concat('homelander', ' leader o', 'f V7'); //homelander leader of V7
 ```
 
 **Usage with plain old javascript**
@@ -48,11 +51,12 @@ const capitalizedText = stringUtils.capitalize('capitalize This strinG'); //Capi
 * [endsWithIgnoreCase](utils/endsWithAnyIgnoreCase.ts)
 * [equals](utils/equals.ts)
 * [equalsAny](utils/equalsAny.ts)
+* [equalsAnyIgnoreCase](utils/equalsAnyIgnoreCase.ts)
 * [equalsIgnoreCase](utils/equalsIgnoreCase.ts)
 
 **many more on the way**
 
-### Author
+### Contributors ✨
 - [Aman Sharma](https://github.com/iaman0004)
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
