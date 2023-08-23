@@ -1,19 +1,18 @@
-import { equals } from "./equals";
+import { equalsIgnoreCase } from "./equalsIgnoreCase";
 
 /**
- * Checks if the any of the string from the set of string is equivalent to source string
+ * Compares source string with the list of target strings ignoring the case of string
  * 
  * @param {string} source which has to be validated for equality
  * @param {string[]} targets the number of validators to be validated for equality
  * @returns {boolean} if source is equal to any of string from targets
  */
-export const equalsAny = (source: string, targets: string[]): boolean => {
+export const equalsAnyIgnoreCase = (source: string, targets: string[]): boolean => {
   if (!source || typeof source !== 'string') return false;
   if (!targets?.length) return false;
   
   for (const target of targets) {
-    if (equals(source, target)) return true;
+    if(equalsIgnoreCase(source, target)) return true;
   }
-
   return false;
 }
