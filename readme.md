@@ -1,6 +1,9 @@
 ### ES String Utils 
 [![NPM][npm-shield]][npm-url]
 
+[![NPM Version](https://img.shields.io/npm/v/es-string-utils.svg?branch=master)](https://www.npmjs.com/package/es-string-utils)
+[![License](https://img.shields.io/npm/l/es-string-utils.svg)](https://github.com/iaman0004/es-string-utils/blob/master/LICENSE)
+
 A collection of utility functions which Javascript/Typescript misses for string manipulation in javascript and typescript.
 
 **Installation using `npm`**
