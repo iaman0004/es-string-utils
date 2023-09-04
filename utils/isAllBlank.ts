@@ -1,8 +1,8 @@
 /**
- * Check and return 
+ * Check and return if all the strings are empty or not
  * 
- * @param targets 
- * @returns 
+ * @param {string[]} targets list of strings to be validated 
+ * @returns {boolean}
  */
 export const isAllBlank = (...targets: string[]): boolean => {
   if (!targets?.length) return true;
