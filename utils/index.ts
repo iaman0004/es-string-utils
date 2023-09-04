@@ -16,3 +16,4 @@ export * from './equals';
 export * from './equalsAny';
 export * from './equalsAnyIgnoreCase'
 export * from './equalsIgnoreCase';
+export * from './isAllBlank';
