@@ -68,5 +68,3 @@ const capitalizedText = stringUtils.capitalize('capitalize This strinG'); //Capi
 <!-- MARKDOWN LINKS & IMAGES -->
 [npm-shield]: https://img.icons8.com/color/48/npm.png
 [npm-url]: https://www.npmjs.com/package/es-string-utils
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/iaman0004/
