@@ -59,12 +59,3 @@ const capitalizedText = stringUtils.capitalize('capitalize This strinG'); //Capi
 * [isAllBlank](utils/isAllBlank.ts)
 
 **many more on the way**
-
-### Contributors ✨
-- [Aman Sharma](https://github.com/iaman0004)
-
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-<!-- MARKDOWN LINKS & IMAGES -->
-[npm-shield]: https://img.icons8.com/color/48/npm.png
-[npm-url]: https://www.npmjs.com/package/es-string-utils
